@@ -12,6 +12,7 @@ Course materials for the 2018 course *TKO_2101 Natural Language Processing* rena
 
 * The course takes place in the linux classroom. You will receive user accounts and passwords during the first demo session.
 * Coursework will happen on the remote server **vm0964.kaj.pouta.csc.fi**, you will receive user accounts and passwords during the first demo session. You can also access this server from home using **ssh** (on linux/Mac) and **putty ssh** (windows).
+* See [running_code.ipynb](running_code.ipynb) for details on the various machines
 
 # Topic 1: Elementary classification
 

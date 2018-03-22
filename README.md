@@ -34,7 +34,7 @@ What are word embeddings, how to train and use those. On the lectures, we show h
 * [bow_classifier_with_embeddings.ipynb](bow_classifier_with_embeddings.ipynb)
 
 
-# Topic 3: Text Classification with conv-nets
+# Topic 3: Text classification with conv-nets
 
 Introduction to convolutional neural networks, how to apply them to text and what they are doing
 

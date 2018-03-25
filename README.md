@@ -41,3 +41,4 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 * [NLP_Week3.pptx](NLP_Week3.pptx)
 * [seq2label_conv.ipynb](seq2label_conv.ipynb)
 * [cnn_filters.ipynb](cnn_filters.ipynb)
+* [cnn_text_task.ipynb](cnn_text_task.ipynb)

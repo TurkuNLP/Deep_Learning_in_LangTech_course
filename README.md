@@ -24,3 +24,21 @@ Bag of words text classification with neural networks. On the lectures, we work 
 * [read_news.ipynb](read_news.ipynb)
 * [data/imdb_train.json](data/imdb_train.json)
 * [data/reuters_51cls.json](data/reuters_51cls.json)
+
+# Topic 2: Word embeddings
+
+What are word embeddings, how to train and use those. On the lectures, we show how weights inside a bag-of-words classifier actually turns out to be a numerical representation of word meaning. Materials:
+
+* [bow_model_load_inspect_imdb.ipynb](bow_model_load_inspect_imdb.ipynb)
+* [word_embeddings.ipynb](word_embeddings.ipynb)
+* [bow_classifier_with_embeddings.ipynb](bow_classifier_with_embeddings.ipynb)
+
+
+# Topic 3: Text classification with conv-nets
+
+Introduction to convolutional neural networks, how to apply them to text and what they are doing
+
+* [NLP_Week3.pptx](NLP_Week3.pptx)
+* [seq2label_conv.ipynb](seq2label_conv.ipynb)
+* [cnn_filters.ipynb](cnn_filters.ipynb)
+* [cnn_text_task.ipynb](cnn_text_task.ipynb)

@@ -34,7 +34,13 @@ What are word embeddings, how to train and use those. On the lectures, we show h
 * [bow_classifier_with_embeddings.ipynb](bow_classifier_with_embeddings.ipynb)
 
 
-# Topic 3: Text classification with conv-nets
+# Topic 3: Properties of word embeddings
+
+Interesting properties of word embeddings, especially their multilingual mapping
+
+* [embedding_properties.ipynb](embedding_properties.ipynb)
+
+# Topic 4: Text classification with conv-nets
 
 Introduction to convolutional neural networks, how to apply them to text and what they are doing
 
@@ -42,3 +48,14 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 * [seq2label_conv.ipynb](seq2label_conv.ipynb)
 * [cnn_filters.ipynb](cnn_filters.ipynb)
 * [cnn_text_task.ipynb](cnn_text_task.ipynb)
+
+# Projects and grading
+
+* Completing a small-group project is mandatory
+* Completing milestone 1 gives you grade 1
+* Each of the milestones 2 and 3 gives you an extra grade
+* i.e. completing all milestones of a project gives you grade 3
+* Exam can give you extra 2 grades, you only need to take it if you want grade 4 or 5
+
+
+

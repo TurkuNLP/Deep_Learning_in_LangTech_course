@@ -39,6 +39,8 @@ What are word embeddings, how to train and use those. On the lectures, we show h
 Interesting properties of word embeddings, especially their multilingual mapping
 
 * [embedding_properties.ipynb](embedding_properties.ipynb)
+* [data/analogy_eng.txt](data/analogy_eng.txt)
+* [data/analogy_fin.txt](data/analogy_fin.txt)
 
 # Topic 4: Text classification with conv-nets
 
@@ -56,6 +58,10 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 * Each of the milestones 2 and 3 gives you an extra grade
 * i.e. completing all milestones of a project gives you grade 3
 * Exam can give you extra 2 grades, you only need to take it if you want grade 4 or 5
+
+* Option 1: [Word Embeddings](project_word_embeddings.ipynb)
+* Option 2: Text classification
+* Option 3: [Named Entity Recognition](project_ner.ipynb)
 
 
 

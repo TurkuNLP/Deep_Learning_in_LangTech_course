@@ -60,7 +60,7 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 * Exam can give you extra 2 grades, you only need to take it if you want grade 4 or 5
 
 * Option 1: [Word Embeddings](project_word_embeddings.ipynb)
-* Option 2: Text classification
+* Option 2: [Text classification](project_dc.ipynb)
 * Option 3: [Named Entity Recognition](project_ner.ipynb)
 
 

@@ -53,6 +53,7 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 
 # Projects and grading
 
+* **Sign up to a project group:** https://tiny.cc/turku_nlp_proj_18
 * Completing a small-group project is mandatory
 * Completing milestone 1 gives you grade 1
 * Each of the milestones 2 and 3 gives you an extra grade

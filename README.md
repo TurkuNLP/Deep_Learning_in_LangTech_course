@@ -51,6 +51,12 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 * [cnn_filters.ipynb](cnn_filters.ipynb)
 * [cnn_text_task.ipynb](cnn_text_task.ipynb)
 
+# Topic 5: Sequence labeling and recurrent neural networks
+
+Introduction to recurrent neural networks (LSTMs) and sequence labeling (named entity recognition and part-of-speech tagging)
+
+* [POS tagging](pos.ipynb)
+
 # Projects and grading
 
 * **Sign up to a project group:** https://tiny.cc/turku_nlp_proj_18

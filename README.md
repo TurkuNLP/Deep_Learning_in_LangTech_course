@@ -56,6 +56,7 @@ Introduction to convolutional neural networks, how to apply them to text and wha
 Introduction to recurrent neural networks (LSTMs) and sequence labeling (named entity recognition and part-of-speech tagging)
 
 * [POS tagging](pos.ipynb)
+* [POS tagging with feature embeddings](pos_with_features.ipynb)
 
 # Projects and grading
 

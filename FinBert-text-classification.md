@@ -42,41 +42,41 @@ NA Narrative
 * OA NA    Online article
 
 OP  Opinion
-OB OP  Personal opinion blogs
-RV OP  Reviews
-RS OP  Religious blogs/sermons
-AV OP  Advice
+* OB OP  Personal opinion blogs
+* RV OP  Reviews
+* RS OP  Religious blogs/sermons
+* AV OP  Advice
 
 IN Informational description
-JD IN  Job description
-FA IN  FAQs
-DT IN  Description of a thing
-IB IN  Information blogs
-DP IN  Description of a person
-RA IN  Research articles
-LT IN  Legal terms / conditions
-CM IN  Course materials
-EN IN  Encyclopedia articles
-RP IN  Report
+* JD IN  Job description
+* FA IN  FAQs
+* DT IN  Description of a thing
+* IB IN  Information blogs
+* DP IN  Description of a person
+* RA IN  Research articles
+* LT IN  Legal terms / conditions
+* CM IN  Course materials
+* EN IN  Encyclopedia articles
+* RP IN  Report
 
 ID Interactive discussion
-DF ID  Discussion forums
-QA ID  Question-answer forums
+* DF ID  Discussion forums
+* QA ID  Question-answer forums
 
 HI  How-to/instructions
-RE HI  Recipes
+* RE HI  Recipes
 
 IP IG  Informational persuasion
-DS IG  Description with intent to sell
-EB IG  News-opinion blogs / editorials
+* DS IG  Description with intent to sell
+* EB IG  News-opinion blogs / editorials
 
-Lyrical
-PO LY  Poems
-SL LY  Songs
+Lyrical LY
+* PO LY  Poems
+* SL LY  Songs
 
-Spoken
-IT SP Interviews
-FS SP Formal speeches
+Spoken SP
+* IT SP Interviews
+* FS SP Formal speeches
 
-Others
-MT OS Machine-translated / generated texts
+Others OS
+* MT OS Machine-translated / generated texts

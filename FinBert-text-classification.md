@@ -10,54 +10,71 @@ The challenge with online documents is that it is not always easy to identify th
 * In some cases, the document does not seem to fit any of the subregisters. In this case, the document can be given only one label: the main register label, such as NA for Narrative. 
 * Some documents may display characteristics of several register categories. In this case, the annotator can mark several register labels for one single document. Consequently, the document may have up to four labels. This would be the case case if a document is annotated both as a Personal blog (subregister label PB + corresponding higher level register label NA) and Review (subregister label RV + corresponding higher level register label OP).
 
-# Milestone 1: Bag-of-words classifier (multi-class)
+# Milestone 1.1: Bag-of-words classifier (multi-class)
 Train a bag-of-words classifier to predict the register categories. In this milestone, the setting is multi-class, so the register label combinations form the classes, e.g. NA_NE and NA_NE_OP_OB. Evaluate your model and report your results with different hyperparameters.
 
-# Milestone 2: Bert (multi-class)
+# Milestone 1.2: Recurrent Neural Network Classifier (multi-class)
+Modify your codes from milestone 1.1 to use recurrent neural networks (e.g. LSTM or biLSTM) in the classifier. Evaluate your model and report your results with different hyperparameters.
+
+# Milestone 2.1: Deep contextual representations with Bert (multi-class)
 Train a Bert classifier to predict the register categories. Similar to Milestone 1, the setting is multi-class, and the evaluations should include results with different hyperparameters.
 
-# Milestone 3: Bert (multi-LABEL)
-Train a multi-label classifier using Bert. In this setting, each label is assigned independently. Similar to milestones #1-2, the evaluations should include results with different hyperparameters.
+# Milestone 2.2: Error analysis
+Compare the errors made by the classifiers you have trained from milestones 1 and 2.1. Are there any patterns? How do the errors one model makes differ from those made by another.
 
+# Milestone 3.1: Bert (multi-LABEL)
+Train two multi-label classifiers, one using non-deep contextual representations, the other using Bert. In this setting, each label is assigned independently. Do hyperparameter optimization on these classifiers.
 
-NA Narrative general
+# Milestone 3.2: Model comparison
+Compare the results of these two classifiers. Do the two models predict in the same way? Analyze the predictions in terms of label-specific differences.
+
+# Register classes and abbreviations
+NA Narrative
 NE: NA    New reports / news blogs
-SR': 'NA', #Sports reports
-PB': 'NA', #Personal blog
-HA': 'NA', #Historical article
-FC': 'NA', #Fiction
-TB': 'NA', #Travel blog
-CB': 'NA', #Community blogs
-OA': 'NA', #Online article
-OP' Opinion general
-OB': 'OP', #Personal opinion blogs
-RV': 'OP', #Reviews
-RS': 'OP', #Religious blogs/sermons
-AV': 'OP', #Advice
-IN' #Informational description general
-JD': 'IN', #Job description
-FA': 'IN', #FAQs
-DT': 'IN', #Description of a thing
-IB': 'IN', #Information blogs
-DP': 'IN', #Description of a person
-RA': 'IN', #Research articles
-LT': 'IN', #Legal terms / conditions
-CM': 'IN', #Course materials
-EN': 'IN', #Encyclopedia articles
-RP': 'IN', #Report
-ID' #Interactive discussion general
-DF': 'ID', #Discussion forums
-QA': 'ID', #Question-answer forums
-HI' #How-to/instructions
-RE': 'HI', #Recipes
-IP': 'IG', #Informational persuasion general
-DS': 'IG', #Description with intent to sell
-EB': 'IG', #News-opinion blogs / editorials
-LYRICAL
-PO: LY', #Poems
-SL: 'LY', #Songs
-SPOKEN
+SR: NA    Sports reports
+PB: NA    Personal blog
+HA: NA    Historical article
+FC: NA    Fiction
+TB: NA    Travel blog
+CB: NA    Community blogs
+OA: NA    Online article
+
+OP  Opinion
+OB: OP  Personal opinion blogs
+RV: OP  Reviews
+RS: OP  Religious blogs/sermons
+AV: OP  Advice
+
+IN Informational description
+JD: IN  Job description
+FA: IN  FAQs
+DT: IN  Description of a thing
+IB: IN  Information blogs
+DP: IN  Description of a person
+RA: IN  Research articles
+LT: IN  Legal terms / conditions
+CM: IN  Course materials
+EN: IN  Encyclopedia articles
+RP: IN  Report
+
+ID Interactive discussion
+DF: ID  Discussion forums
+QA: ID  Question-answer forums
+
+HI  How-to/instructions
+RE: HI  Recipes
+
+IP: IG  Informational persuasion
+DS: IG  Description with intent to sell
+EB: IG  News-opinion blogs / editorials
+
+Lyrical
+PO: LY  Poems
+SL: LY  Songs
+
+Spoken
 IT: SP Interviews
 FS: SP Formal speeches
-OTHERS
+
+Others
 MT: OS Machine-translated / generated texts

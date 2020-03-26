@@ -18,3 +18,46 @@ Train a Bert classifier to predict the register categories. Similar to Milestone
 
 # Milestone 3: Bert (multi-LABEL)
 Train a multi-label classifier using Bert. In this setting, each label is assigned independently. Similar to milestones #1-2, the evaluations should include results with different hyperparameters.
+
+
+NA Narrative general
+NE: NA    New reports / news blogs
+SR': 'NA', #Sports reports
+PB': 'NA', #Personal blog
+HA': 'NA', #Historical article
+FC': 'NA', #Fiction
+TB': 'NA', #Travel blog
+CB': 'NA', #Community blogs
+OA': 'NA', #Online article
+OP' Opinion general
+OB': 'OP', #Personal opinion blogs
+RV': 'OP', #Reviews
+RS': 'OP', #Religious blogs/sermons
+AV': 'OP', #Advice
+IN' #Informational description general
+JD': 'IN', #Job description
+FA': 'IN', #FAQs
+DT': 'IN', #Description of a thing
+IB': 'IN', #Information blogs
+DP': 'IN', #Description of a person
+RA': 'IN', #Research articles
+LT': 'IN', #Legal terms / conditions
+CM': 'IN', #Course materials
+EN': 'IN', #Encyclopedia articles
+RP': 'IN', #Report
+ID' #Interactive discussion general
+DF': 'ID', #Discussion forums
+QA': 'ID', #Question-answer forums
+HI' #How-to/instructions
+RE': 'HI', #Recipes
+IP': 'IG', #Informational persuasion general
+DS': 'IG', #Description with intent to sell
+EB': 'IG', #News-opinion blogs / editorials
+LYRICAL
+PO: LY', #Poems
+SL: 'LY', #Songs
+SPOKEN
+IT: SP Interviews
+FS: SP Formal speeches
+OTHERS
+MT: OS Machine-translated / generated texts

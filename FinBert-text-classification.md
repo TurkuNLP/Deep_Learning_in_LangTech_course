@@ -31,14 +31,15 @@ Compare the results of these two classifiers. Do the two models predict in the s
 # Register classes and abbreviations
 
 NA Narrative
-NE NA    New reports / news blogs
-SR NA    Sports reports
-PB NA    Personal blog
-HA NA    Historical article
-FC NA    Fiction
-TB NA    Travel blog
-CB NA    Community blogs
-OA NA    Online article
+
+* NE NA    New reports / news blogs
+* SR NA    Sports reports
+* PB NA    Personal blog
+* HA NA    Historical article
+* FC NA    Fiction
+* TB NA    Travel blog
+* CB NA    Community blogs
+* OA NA    Online article
 
 OP  Opinion
 OB OP  Personal opinion blogs

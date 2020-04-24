@@ -16,21 +16,20 @@ Materials for the University of Turku course *TKO_8965 Deep Learning in Human La
 
 # Topic 1: Feed-forward NNs and the BoW model
 
-Bag of words text classification with neural networks. On the lectures, we work our way through basic neural network models, their training, and application to classification. Materials:
+Bag of words text classification with neural networks. On the lectures, we work our way through basic neural network models, their training, and application to classification.
 
-* [bow_classifier.ipynb](bow_classifier.ipynb)
-* [bow_classifier_features.ipynb](bow_classifier_features.ipynb)
-* [word_embeddings.ipynb](word_embeddings.ipynb)
-* [bow_classifier_embeddings_simpler.ipynb](bow_classifier_embeddings_simpler.ipynb)
+* [Bag-of-words text classification - notebook](bow_classifier.ipynb)
+* [Classifier word vector analysis - notebook](bow_classifier_features.ipynb)
+* [Word embeddings - notebook](word_embeddings.ipynb)
+* [BoW classifier with pretrained word embeddings - notebook](bow_classifier_embeddings_simpler.ipynb)
 
-# Topic 2: Word embeddings
+# Topic 2: Convolutional Neural Networks
 
-What are word embeddings, how to train and use those. On the lectures, we show how weights inside a bag-of-words classifier actually turns out to be a numerical representation of word meaning. Materials:
+Convolutional neural networks and their use in natural language processing.
 
-* [bow_model_load_inspect_imdb.ipynb](bow_model_load_inspect_imdb.ipynb)
-* [word_embeddings.ipynb](word_embeddings.ipynb)
-* [bow_classifier_with_embeddings.ipynb](bow_classifier_with_embeddings.ipynb)
-
+* [Sequence to Label with CNNs - notebook](seq2label_conv.ipynb)
+* [CNN filter interpretation - notebook](cnn_filters.ipynb)
+* [Pytorch CNN model - notebook](cnn_model_pytorch.ipynb)
 
 # Topic 3: Properties of word embeddings
 

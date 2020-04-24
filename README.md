@@ -27,6 +27,7 @@ Bag of words text classification with neural networks. On the lectures, we work 
 
 Convolutional neural networks and their use in natural language processing.
 
+* [Convolutional neural networks - slides](slides/Convolutional_neural_networks.pptx)
 * [Sequence to Label with CNNs - notebook](seq2label_conv.ipynb)
 * [CNN filter interpretation - notebook](cnn_filters.ipynb)
 * [Pytorch CNN model - notebook](cnn_model_pytorch.ipynb)
@@ -52,12 +53,16 @@ Encoder-decorer and sequence-to-sequence architectures and introduction to neura
 
 # Transformer and transfer learning
 
+Self-attention, transformer model, and deep transfer learning.
+
 * [Transformer and transfer learning - slides](slides/Transformer_and_transfer_learning.pdf)
 * [Deep neural language models - slides](slides/Deep_neural_language_models.pdf)
 * [Text classification with BERT - notebook](bert_text_classification.ipynb)
 * [Sequence labeling with BERT - notebook](bert_sequence_labeling.ipynb)
 
-# Applications
+# Applications and evaluation
+
+NLP applications of neural networks and evaluation of NN models.
 
 * [Sequence to sequence applications - notebook](seq2seq_applications.ipynb)
 * [Crosslingual sentence representations - slides](slides/Crosslingual_sentence_representations.pdf)

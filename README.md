@@ -41,26 +41,26 @@ Introduction to recurrent neural networks and applications to various NLP tasks.
 * [Text generation with recurrent neural networks - notebook](rnn_text_generation.ipynb)
 * [Named entity recognition with recurrent neural networks - notebook](rnn_named_entity_recognition.ipynb)
 
-# Topic 3: Properties of word embeddings
+# Sequence to sequence and attention
 
-Interesting properties of word embeddings, especially their multilingual mapping
+Encoder-decorer and sequence-to-sequence architectures and introduction to neural attention.
 
-* [embedding_properties.ipynb](embedding_properties.ipynb)
-* [data/analogy_eng.txt](data/analogy_eng.txt)
-* [data/analogy_fin.txt](data/analogy_fin.txt)
+* [Sequence to sequence and neural attention - slides](slides/Sequence_to_sequence_and_attention.pdf)
+* [Sequence to sequence date normalization - notebook](seq2seq_dates.ipynb)
+* [Sequence to sequence English to katakana translation - notebook](seq2seq_katakana.ipynb)
+* [Neural machine translation with attention - TensorFlow tutorial](https://www.tensorflow.org/tutorials/text/nmt_with_attention)
 
-# Topic 4: Text classification with conv-nets
+# Transformer and transfer learning
 
-Introduction to convolutional neural networks, how to apply them to text and what they are doing
+* [Transformer and transfer learning - slides](slides/Transformer_and_transfer_learning.pdf)
+* [Deep neural language models - slides](slides/Deep_neural_language_models.pdf)
+* [Text classification with BERT - notebook](bert_text_classification.ipynb)
+* [Sequence labeling with BERT - notebook](bert_sequence_labeling.ipynb)
 
-* [NLP_Week3.pptx](NLP_Week3.pptx)
-* [seq2label_conv.ipynb](seq2label_conv.ipynb)
-* [cnn_filters.ipynb](cnn_filters.ipynb)
-* [cnn_text_task.ipynb](cnn_text_task.ipynb)
+# Applications
 
-# Topic 5: Sequence labeling and recurrent neural networks
-
-Introduction to recurrent neural networks (LSTMs) and sequence labeling (named entity recognition and part-of-speech tagging)
-
-* [POS tagging](pos.ipynb)
-* [POS tagging with feature embeddings](pos_with_features.ipynb)
+* [Sequence to sequence applications - notebook](seq2seq_applications.ipynb)
+* [Crosslingual sentence representations - slides](slides/Crosslingual_sentence_representations.pdf)
+* [Laser and BERT embeddings](laser.ipynb)
+* [Inference as benchmark - slides](slides/Inference_as_benchmark.pdf)
+* [Additional information on evaluation and paraphrase datasets](Paraphrase_corpora.pdf)

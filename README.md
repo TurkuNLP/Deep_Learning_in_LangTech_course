@@ -2,7 +2,7 @@
 
 Materials for the University of Turku course *TKO_8965 Deep Learning in Human Language Technology* (previously named *TKO_2101 Natural Language Processing*).
 
-[UTU Moodle page](https://moodle.utu.fi/course/view.php?id=13402)
+[UTU Moodle page](https://moodle.utu.fi/course/view.php?id=18315)
 
 # How to attend the course
 
@@ -14,7 +14,7 @@ Materials for the University of Turku course *TKO_8965 Deep Learning in Human La
 * The course takes place in the linux classroom. You will receive user accounts and passwords during the first demo session.
 * See [running_code.ipynb](running_code.ipynb) for details on the various machines
 
-# Topic 1: Feed-forward NNs and the BoW model
+# Feed-forward NNs and the BoW model
 
 Bag of words text classification with neural networks. On the lectures, we work our way through basic neural network models, their training, and application to classification.
 
@@ -23,13 +23,23 @@ Bag of words text classification with neural networks. On the lectures, we work 
 * [Word embeddings - notebook](word_embeddings.ipynb)
 * [BoW classifier with pretrained word embeddings - notebook](bow_classifier_embeddings_simpler.ipynb)
 
-# Topic 2: Convolutional Neural Networks
+# Convolutional Neural Networks
 
 Convolutional neural networks and their use in natural language processing.
 
 * [Sequence to Label with CNNs - notebook](seq2label_conv.ipynb)
 * [CNN filter interpretation - notebook](cnn_filters.ipynb)
 * [Pytorch CNN model - notebook](cnn_model_pytorch.ipynb)
+
+# Recurrent Neural Networks
+
+Introduction to recurrent neural networks and applications to various NLP tasks.
+
+* [Recurrent neural networks - slides](slides/Recurrent_neural_networks.pdf)
+* [Long short-term memory - slides](slides/Long_short-term_memory.pdf)
+* [Text classification with recurrent neural networks - notebook](rnn_text_classification.ipynb)
+* [Text generation with recurrent neural networks - notebook](rnn_text_generation.ipynb)
+* [Named entity recognition with recurrent neural networks - notebook](rnn_named_entity_recognition.ipynb)
 
 # Topic 3: Properties of word embeddings
 

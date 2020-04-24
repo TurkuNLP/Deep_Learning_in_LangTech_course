@@ -61,6 +61,6 @@ Encoder-decorer and sequence-to-sequence architectures and introduction to neura
 
 * [Sequence to sequence applications - notebook](seq2seq_applications.ipynb)
 * [Crosslingual sentence representations - slides](slides/Crosslingual_sentence_representations.pdf)
-* [Laser and BERT embeddings](laser.ipynb)
+* [Laser and BERT embeddings - notebook](laser.ipynb)
 * [Inference as benchmark - slides](slides/Inference_as_benchmark.pdf)
 * [Additional information on evaluation and paraphrase datasets](Paraphrase_corpora.pdf)

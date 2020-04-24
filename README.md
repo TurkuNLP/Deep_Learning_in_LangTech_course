@@ -57,19 +57,3 @@ Introduction to recurrent neural networks (LSTMs) and sequence labeling (named e
 
 * [POS tagging](pos.ipynb)
 * [POS tagging with feature embeddings](pos_with_features.ipynb)
-
-# Projects and grading
-
-* **Sign up to a project group:** https://tiny.cc/turku_nlp_proj_18
-* Completing a small-group project is mandatory
-* Completing milestone 1 gives you grade 1
-* Each of the milestones 2 and 3 gives you an extra grade
-* i.e. completing all milestones of a project gives you grade 3
-* Exam can give you extra 2 grades, you only need to take it if you want grade 4 or 5
-
-* Option 1: [Word Embeddings](project_word_embeddings.ipynb)
-* Option 2: [Text classification](project_dc.ipynb)
-* Option 3: [Named Entity Recognition](project_ner.ipynb)
-
-
-

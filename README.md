@@ -4,15 +4,6 @@ Materials for the University of Turku course *TKO_8965 Deep Learning in Human La
 
 [UTU Moodle page](https://moodle.utu.fi/course/view.php?id=18315)
 
-# How to attend the course
-
-* We expect you to **take notes during the lecture**. The online materials support, but do not replace the lectures. It is highly unlikely you can pass the course by simply reading through the online materials.
-* If you cannot make it to a lecture, find a friend who can share their notes with you.
-
-# Computers and accounts
-
-* The course takes place in the linux classroom. You will receive user accounts and passwords during the first demo session.
-* See [running_code.ipynb](running_code.ipynb) for details on the various machines
 
 # Feed-forward NNs and the BoW model
 

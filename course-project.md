@@ -2,7 +2,7 @@
 
 To complete the course, successful completion of the project described here is required (basic project outline). A project successfully completed with the bonus task gives +1 to grade, however, this will not lift your grade from fail to pass.
 
-Use [this template](todo) for your project.
+Use [this template](course_project_template.ipynb) for your project.
 
 ## Group work
 
@@ -72,4 +72,4 @@ For embedding similarity, you should write code to
 
 ## Returning your project
 
-Return your project as a Python notebook (following [this template](todo)) that includes both execution results and the descriptions detailed above.
+Return your project as a Python notebook (following [this template](course_project_template.ipynb)) that includes both execution results and the descriptions detailed above.

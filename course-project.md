@@ -71,7 +71,7 @@ This involves the following basic structure:
   **6. For group projects only:** Make a detailed error analysis where you compare the classifier and generative approaches zero-shot cross-lingual transfer. How many examples (a) both predicted correctly, (b) both predicted wrong, (c) classifier predicted correctly but generative model wrong, and (d) generative predicted correctly but classifier wrong. Use here the downsampled test data. Manually inspect some examples (10-20) which both models predicted wrong, do these look difficult or easy to you?
 
 Notes:
-* In able to run a generative model in Colab, model quantization is recommended. See [documentation](https://huggingface.co/docs/optimum/concept_guides/quantization) and [an example notebook](https://github.com/TurkuNLP/intro-to-nlp/blob/master/text_generation_pipeline_conversational.ipynb).
+* In able to run a generative model in Colab, model quantization is recommended. See [documentation](https://huggingface.co/docs/accelerate/usage_guides/quantization) and [an example notebook](https://github.com/TurkuNLP/intro-to-nlp/blob/master/text_generation_pipeline_conversational.ipynb).
 * Some models require authentication: You need to create a HuggingFace account and accept *terms and conditions* to be able to use the model. 
 
 ## Returning your project

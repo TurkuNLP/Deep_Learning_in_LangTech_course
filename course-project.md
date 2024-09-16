@@ -21,7 +21,7 @@ The project involves creating a transformer-based classifier for a multilingual 
 	3. train a transformer-based classifier on the **English** training set, evaluating performance on the **English** validation set
 	4. perform hyperparameter optimization
 	5. evaluate your final model on the **English** test set
-	6. perform cross-lingual experiments (see below)
+	6. perform zero-shot cross-lingual transfer experiments (see below)
 5. Write a summary of
 	1. what you learned about the corpus
 	2. your results
@@ -32,11 +32,11 @@ The project involves creating a transformer-based classifier for a multilingual 
 
 We suggest the following corpora to work on. (If you'd prefer to suggest any other multilingual text classification corpus, get in touch with us on Discord!)
 
-* **Corpus name:** mteb/amazon_reviews_multi
+* **Corpus name:** [mteb/amazon_reviews_multi](https://huggingface.co/datasets/mteb/amazon_reviews_multi)
 * **Labels:** Star rating 1–5
 * **Languages:** English, German, Spanish, French, Japanese, Chinese
 * **Subset sizes (per language):** train:200K, validation:5K, test:5K
-* **Description:** Amazon product reviews dataset for multilingual text classification. Each record in the dataset contains the review text, the review title, the star rating, an anonymized reviewer ID, an anonymized product ID and the coarse-grained product category (e.g. books, appliances, etc.) The corpus is balanced across stars, so each star rating constitutes 20% of the reviews in each language. More information in the [paper](https://aclanthology.org/2020.emnlp-main.369/).
+* **Description:** Amazon product reviews dataset for multilingual text classification. In this version of the dataset, each record contains the id (including the language information), the combined title and review text, and the star rating. The corpus is balanced across stars, so each star rating constitutes 20% of the reviews in each language. More information in the [paper](https://aclanthology.org/2020.emnlp-main.369/).
 
 **Note:** The original [paper](https://aclanthology.org/2020.emnlp-main.369/) suggest using mean absolute error (MAE) instead of classification accuracy for this task to account for the ordinal nature of the ratings. However, **you can treat this as a standard classification task with five labels and measure classification accuracy.**
 
@@ -44,7 +44,7 @@ We suggest the following corpora to work on. (If you'd prefer to suggest any oth
 
 You are free to downsample the training and validation data in case training with the full dataset becomes too heavy. Describe the corpus statistics (especially label distribution) after sampling in order to demonstrate that the sampling is done reasonably.
 
-### Cross-lingual experiments
+### Zero-shot cross-lingual transfer experiments
 
 The idea of the cross-lingual experiments is to simulate the situation of *I would like to have a sentiment classifier for a language but I don't have any training data for that language*. In this case, the zero-shot cross-lingual transfer is an option.
 
@@ -54,25 +54,23 @@ Report at least the following cross-lingual experiments:
 
 Remember to use a multilingual pre-trained language model in cross-lingual experiments. You can use for example [`xlm-roberta-base`](https://huggingface.co/xlm-roberta-base) or [`bert-base-multilingual-cased`](https://huggingface.co/bert-base-multilingual-cased).
 
-## Bonus task
+## Bonus task: Zero-shot with a generative language model
 
-As an optional bonus task, you may also do the following. Completing this bonus task in addition to the basic project gives +1 to your grade. Note that if you are doing the project as a group of two, there is an additional requirement in the bonus part.
+As an optional bonus task, you may also do the following. Completing this bonus task in addition to the basic project gives +1 to your grade. Note that if you are doing the project as a group of two people, there is an additional requirement in the bonus task (part 6).
 
-### Bonus task: Zero-shot with generative language model
-
-The bonus task involves testing an alternative approach to zero-shot transfer utilizing generative language models. In here, the task is to prompt an existing conversational/chat/intruct fine-tuned generative model to do the classification.
+The bonus task involves testing an alternative approach to zero-shot transfer. In here, the task is to prompt an existing conversational/chat/intruction fine-tuned generative model to do the classification, i.e. to generate the correct label for the given example.
 
 This involves the following basic structure:
-  1. Select a reasonable generative model to work on. Preferably, the model should be somehow instruction fine-tuned (instruct, chat, conversation). Keep in mind that Colab has somewhat limited resources, so pay attention to model sizes. You can use e.g. [mistralai/Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2).
-  2. Downsample the test data.
-  3. Write a prompt where you define the task the model is suppose to do, and include one example at a time.
-  4. Extract the model predicted labels from the genrated output.
-  5. Calculate accuracy and compare it to the previous results (baseline, zero-shot cross-lingual transfer).
-  **6. For group projects only:** Make a detailed error analysis where you compare the classifier and generative approaches zero-shot cross-lingual transfer. How many examples (a) both predicted correctly, (b) both predicted wrong, (c) classifier predicted correctly but generative model wrong, and (d) generative predicted correctly but classifier wrong. Use here the downsampled test data. Manually inspect some examples (10-20) which both models predicted wrong, do these look difficult or easy to you?
+  1. Select a reasonable generative model to work on. Preferably, the model should be somehow instruction fine-tuned (instruct, chat, conversation). Keep in mind that Colab has somewhat limited resources, so pay attention to model sizes. You can use e.g. [mistralai/Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2), [meta-llama/Meta-Llama-3.1-8B](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B), or any other suitable model.
+  2. Downsample the test data if needed.
+  3. Write a prompt which communicates the task to the model. In the prompt, you should at least communicate the classification task (and its labels), the expected input and output data format, and the input text to be labeled. You should try several different prompts to get optimal results. For more instructions, see for example [this tutorial](https://huggingface.co/docs/transformers/tasks/prompting).
+  4. Write code to feed the examples to the model one by one, and extract the model predicted labels from the genrated output.
+  5. Calculate accuracy and compare it with the previous results (classifier baseline, classifier based zero-shot cross-lingual transfer).
+  6. **For group projects only:** Make a detailed error analysis where you compare the two zero-shot approaches (classifier, generative). How many examples (a) both predicted correctly, (b) both got wrong, (c) the classifier predicted correctly but the generative model wrong, and (d) the generative model predicted correctly but the classifier wrong. If the prediction from the generative model was incorrect, was it because it failed to generate any label (e.g. unsystematic output format) or it generated a label but the label was not correct?
 
 Notes:
 * In able to run a generative model in Colab, model quantization is recommended. See [documentation](https://huggingface.co/docs/accelerate/usage_guides/quantization) and [an example notebook](https://github.com/TurkuNLP/intro-to-nlp/blob/master/text_generation_pipeline_conversational.ipynb).
-* Some models require authentication: You need to create a HuggingFace account and accept *terms and conditions* to be able to use the model. 
+* Some models require authentication: You need to create a HuggingFace account and accept *terms and conditions* to be able to use these models. 
 
 ## Returning your project
 

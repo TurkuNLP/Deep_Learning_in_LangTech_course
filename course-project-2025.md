@@ -63,7 +63,8 @@ For the generative model we recommend to select a model that has been trained to
 The bonus task involves comparison between two different generative and two different bidirectional models.
 To complete the bonus task, you need to perform steps 4. and 5. in the basic project outline twice, optimizing the prompt and model hyperparameters separately for each of the models.
 
-We recommend selecting models that are expected to provide different performance, e.g. an older and a more recent model or a monolingual model and a multilingual one.
+You should select models that are expected to provide different performance, e.g. an older and a more recent model or a monolingual model and a multilingual one.
+In your results section, include also discussion of what the expected differences were and how they were reflected in your results.
 
 ### Group projects
 

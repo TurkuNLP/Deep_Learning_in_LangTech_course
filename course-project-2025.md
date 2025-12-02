@@ -3,7 +3,7 @@
 To complete the course, successful completion of the project described in the **basic project outline** below is required.
 A project successfully completed with the bonus task gives +1 to your grade; however, **this will not lift an otherwise failing grade to passing**.
 
-**Group work** (optional): the project can be completed either individually or as a group of two people. Group projects have some additional requirements; see below.
+**Group work** (optional): the project can be completed either individually or as a group of two people. Group projects have some additional requirements; see below. If you do a group work, indicate it very clearly at the beginning, and also each group member should submit the project on moodle.
 
 ## Basic project outline
 
@@ -77,4 +77,4 @@ If a prediction from a generative model was incorrect, was it because it failed 
 
 ## Returning your project
 
-Return your project as a Python notebook (following [this template](https://github.com/TurkuNLP/Deep_Learning_in_LangTech_course/blob/master/course_project_template_2025.ipynb)) that includes both execution results and the descriptions detailed above.
+Return your project as a Python notebook (following [this template](https://github.com/TurkuNLP/Deep_Learning_in_LangTech_course/blob/master/course_project_template_2025.ipynb)) that includes both execution results and the descriptions detailed above. For group projects, each group member should submit the project work separately on moodle.

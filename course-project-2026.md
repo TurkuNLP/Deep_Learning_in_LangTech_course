@@ -99,7 +99,7 @@ In your final written summary, include a dedicated section for this group work. 
 
 ## Returning your project
 
-Return your project as a Python notebook (following [this template](https://github.com/TurkuNLP/Deep_Learning_in_LangTech_course/blob/master/course_project_template_2025.ipynb)) that includes both execution results and the descriptions detailed above. For group projects, each group member should submit the project work separately on moodle.
+Return your project as a Python notebook (following [this template](https://github.com/TurkuNLP/Deep_Learning_in_LangTech_course/blob/master/course_project_template_2026.ipynb)) that includes both execution results and the descriptions detailed above. For group projects, each group member should submit the project work separately on moodle.
 
 ## AI policy
 
